@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.6/20004
 // Filename: ????? 84.ggsk
-// Generated 2023-11-01T18:15:16
+// Generated 2023-11-09T17:48:37
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_mobilemenu', 2, false, { ignoreInState: 0  });
@@ -23244,7 +23244,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+=cssPrefix + 'background-clip : padding-box;';
 		hs+='background-clip : padding-box;';
-		hs+='border-color : rgba(196,145,89,0);';
+		hs+='border-color : rgba(250,205,0,0);';
 		hs+='border-radius : 0px 0px 0px 0px;';
 		hs+='border-style : solid;';
 		hs+='border-width : 0px 0px 1px 0px;';
@@ -23299,7 +23299,7 @@ function pano2vrSkin(player,base) {
 		me.__84.logicBlock_bordercolor = function() {
 			var newLogicStateBorderColor;
 			if (
-				((player._(me.ggUserdata.information) == "59"))
+				((player._(me.ggUserdata.information) == "84"))
 			)
 			{
 				newLogicStateBorderColor = 0;
@@ -23314,7 +23314,7 @@ function pano2vrSkin(player,base) {
 					me.__84.style.borderColor="rgba(250,205,0,1)";
 				}
 				else {
-					me.__84.style.borderColor="rgba(196,145,89,0)";
+					me.__84.style.borderColor="rgba(250,205,0,0)";
 				}
 			}
 		}
@@ -23334,7 +23334,7 @@ function pano2vrSkin(player,base) {
 				me.__84.ggCurrentLogicStateTextColor = newLogicStateTextColor;
 				me.__84.style.transition='border-color 0s, color 0s';
 				if (me.__84.ggCurrentLogicStateTextColor == 0) {
-					me.__84.style.color="rgba(237,32,39,1)";
+					me.__84.style.color="rgba(0,102,119,1)";
 				}
 				else {
 					me.__84.style.color="rgba(0,0,0,1)";
@@ -23348,7 +23348,7 @@ function pano2vrSkin(player,base) {
 					((player._(me.ggUserdata.information) != "84"))
 				)
 			) {
-				player.openUrl("","");
+				player.openUrl("https:\/\/web-seocho-84-12fhqa2blnsl13cq.sel5.cloudtype.app\/","");
 			}
 		}
 		me.__84.onmouseover=function (e) {
@@ -23389,7 +23389,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+=cssPrefix + 'background-clip : padding-box;';
 		hs+='background-clip : padding-box;';
-		hs+='border-color : rgba(196,145,89,0);';
+		hs+='border-color : rgba(250,205,0,0);';
 		hs+='border-radius : 0px 0px 0px 0px;';
 		hs+='border-style : solid;';
 		hs+='border-width : 0px 0px 1px 0px;';
@@ -23459,7 +23459,7 @@ function pano2vrSkin(player,base) {
 					me.__41.style.borderColor="rgba(250,205,0,1)";
 				}
 				else {
-					me.__41.style.borderColor="rgba(196,145,89,0)";
+					me.__41.style.borderColor="rgba(250,205,0,0)";
 				}
 			}
 		}
@@ -23479,7 +23479,7 @@ function pano2vrSkin(player,base) {
 				me.__41.ggCurrentLogicStateTextColor = newLogicStateTextColor;
 				me.__41.style.transition='border-color 0s, color 0s';
 				if (me.__41.ggCurrentLogicStateTextColor == 0) {
-					me.__41.style.color="rgba(237,32,39,1)";
+					me.__41.style.color="rgba(0,102,119,1)";
 				}
 				else {
 					me.__41.style.color="rgba(0,0,0,1)";
@@ -24153,7 +24153,7 @@ function pano2vrSkin(player,base) {
 		me._type20.logicBlock_backgroundcolor = function() {
 			var newLogicStateBackgroundColor;
 			if (
-				((player._(me.ggUserdata.information) == "59"))
+				((player._(me.ggUserdata.information) == "84"))
 			)
 			{
 				newLogicStateBackgroundColor = 0;
@@ -24179,7 +24179,7 @@ function pano2vrSkin(player,base) {
 					((player._(me.ggUserdata.information) != "84"))
 				)
 			) {
-				player.openUrl("","");
+				player.openUrl("https:\/\/web-seocho-84-12fhqa2blnsl13cq.sel5.cloudtype.app\/","");
 			}
 		}
 		me._type20.ggUpdatePosition=function (useTransition) {
